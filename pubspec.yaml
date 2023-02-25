@@ -1,0 +1,163 @@
+name: bankly
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.2 <3.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  carousel_slider: ^4.2.1
+  get: ^4.6.5
+  pinput: ^2.2.31
+  intl_phone_number_input: ^0.7.2
+  flutter_launcher_icons: ^0.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+  get:
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+     - assets/
+     - assets/images/bankly-logo.png
+     - assets/images/Ellipse 1.png
+     - assets/images/Ellipse 1 (1).png
+     - assets/images/2065283 1.png
+     - assets/images/The budget feature allows teens to track their spending, set savings goals, and receive educational resources to help them understand important financial concepts..png
+     - assets/images/Group 1.png
+     - assets/images/Track your budget (1).png
+     - assets/images/This feature lets the teens to set savings goals and track their progress towards achieving them..png
+     - assets/images/Ellipse 2.png
+     - assets/images/Group 1 (1).png
+     - assets/images/target 1.png
+     - assets/images/Next.png
+     - assets/images/next-btn-removebg-preview (1).png
+     - assets/images/next-btn-removebg-preview (1).v2.jpg
+     - assets/images/next-btn (1).png
+     - assets/images/Set your savings goal.png
+     - assets/images/back-btn.png
+     - assets/images/Group 1 (2).png
+     - assets/images/Get amazing rewards.png
+     - assets/images/The rewards feature is designed to incentivize and encourage good savings habits among teens..png
+     - assets/images/Get amazing rewards.png
+     - assets/images/star 1.png
+     - assets/images/Enter your phone number.png
+     - assets/images/Make sure to provide your own number..png
+     - assets/images/By continuing, you agree to our Terms of use and Privacy policy.png
+     - assets/images/Enter the otp to verify your phone Number.png
+     - assets/images/Enter the otp to verify your phone Number.png
+     - assets/images/Enter the otp to verify your phone Number.jpg
+     - assets/images/Enter your phone number.png
+     - assets/images/OTP sent to +91 00000 0000 edit.png
+     - assets/images/notification-icon.png
+     - assets/notification-icon.jpg
+     - assets/images/notification-icon (1).png
+     - assets/pageone/Rectangle 21.png
+     - assets/pageone/Entertainment.png
+     - assets/pageone/image 2.png
+     - assets/pageone/Line 1.png
+     - assets/pageone/Rectangle.png
+     - assets/pageone/request-btn.png
+     - assets/pageone/request-btnr.png
+     - assets/pageone/diet (1) 1.png
+     - assets/pageone/travel-luggage 1.png
+     - assets/pageone/shopping-bag 1.png
+     - assets/pageone/education 1.png
+     - assets/pageone/mental-health 1.png
+     - assets/pageone/personal-care 1.png
+     - assets/pageone/transportation 1.png
+     - assets/pageone/magic-box 1.png
+     - assets/pageone/order-btn.png
+     - assets/pageone/open-box 1.png
+     - assets/pageone/banner.png
+     - assets/pageone/banner__1_-removebg-preview.png
+     - assets/pageone/diet 1.png
+     - assets/pageone/debit-card(hidden) 3.png
+     - assets/pageone/google-play 1.png
+     - assets/pageone/Screenshot__23_-removebg-preview-removebg-preview.png
+     - assets/pageone/Screenshot__24_-removebg-preview.png
+     - assets/pageone/Screenshot__25_-removebg-preview.png
+     - assets/pageone/image 3 (1).png
+     - assets/pageone/open-box 1.png
+     - assets/pageone/back-btn (1).png
+     - assets/pageone/Your Bankly Card.png
+     - assets/order/Rectangle 13.png
+     - assets/order/next-btn (2).png
+     - assets/order/bankly icon.png
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
