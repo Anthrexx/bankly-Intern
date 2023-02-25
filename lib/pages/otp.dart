@@ -1,6 +1,7 @@
 
 
 import 'package:bankly/pages/pageOne.dart';
+import 'package:bankly/pages/phoneNumber.dart';
 import 'package:bankly/pages/phonenumb.dart';
 import 'package:bankly/pages/utils/secondsplash.dart';
 import 'package:flutter/material.dart';
@@ -43,13 +44,13 @@ class _otpState extends State<otp> {
         margin: EdgeInsets.only(left: 25,right: 25,top: 35),
         // alignment: Alignment.center,
 
-        child:  SingleChildScrollView(
+
           child: Column(
             // mainAxisAlignment: MainAxisAlignment.center,
 
             children: [ Row(
               children: [GestureDetector(onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context) => Second()),);
+                Navigator.push(context, MaterialPageRoute(builder: (context) => phone()),);
               },
                 child: Container(
                   height: 50,
@@ -90,7 +91,7 @@ class _otpState extends State<otp> {
         showCursor: true,
         onCompleted: (pin) => print(pin),
       ),
-              SizedBox(height: 320,),
+              SizedBox(height: 299.99,),
               Row(
                 children: [
                   Padding(
@@ -109,7 +110,7 @@ class _otpState extends State<otp> {
             ],
           ),
         ),
-      ),
+
 
     );
   }
